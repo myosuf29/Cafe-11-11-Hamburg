@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum – eleven 11:11 eleven</title>
+<meta name="description" content="Impressum der Eleven Eleven HQ GmbH, Hamburg.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="img/logo-04.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="no-js">
+<script>document.body.classList.remove('no-js')</script>
+
+<header>
+  <div class="container nav">
+    <a href="index.html" class="logo" aria-label="eleven 11:11 eleven – Startseite"><img src="img/logo.png" alt="eleven 11:11 eleven"></a>
+    <ul>
+      <li><a href="index.html#about">Über uns</a></li>
+      <li><a href="index.html#menu">Speisekarte</a></li>
+      <li><a href="index.html#locations">Standorte</a></li>
+      <li><a href="index.html#contact">Kontakt</a></li>
+    </ul>
+    <a href="index.html#locations" class="btn btn-primary btn-desktop">Tisch reservieren</a>
+    <button class="burger" aria-label="Menü öffnen" aria-expanded="false" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about">Über uns</a>
+    <a href="index.html#menu">Speisekarte</a>
+    <a href="index.html#locations">Standorte</a>
+    <a href="index.html#contact">Kontakt</a>
+    <a href="index.html#locations" class="btn btn-primary">Tisch reservieren</a>
+  </nav>
+</header>
+
+<main>
+  <section class="legal-hero">
+    <div class="container">
+      <span class="eyebrow">Rechtliches</span>
+      <h1>Impressum</h1>
+      <p>Angaben gemäß § 5 TMG</p>
+    </div>
+  </section>
+
+  <section class="legal">
+    <div class="container legal-grid">
+      <aside class="legal-toc">
+        <h4>Inhalt</h4>
+        <ol>
+          <li><a href="#anbieter">Anbieter</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#streit">EU-Streitschlichtung</a></li>
+          <li><a href="#verbraucher">Verbraucherstreitbeilegung</a></li>
+          <li><a href="datenschutz.html">→ Datenschutzerklärung</a></li>
+        </ol>
+      </aside>
+
+      <div class="legal-body">
+        <h2 id="anbieter">Anbieter</h2>
+        <div class="card">
+          <strong>Eleven Eleven HQ GmbH</strong>
+          Beethovenstr. 13<br>
+          22083 Hamburg<br>
+          Deutschland
+        </div>
+
+        <h2 id="kontakt">Kontakt</h2>
+        <div class="card">
+          Telefon: <a href="tel:+494086628315">040 866 283 15</a><br>
+          E-Mail: <a href="mailto:hi@eleven11-11eleven.de">hi@eleven11-11eleven.de</a>
+        </div>
+        <p>Standort Eppendorf: Tarpenbekstr. 51, 20251 Hamburg · Telefon <a href="tel:+494023868633">040 238 686 33</a> · <a href="mailto:eppendorf@eleven11-11eleven.de">eppendorf@eleven11-11eleven.de</a></p>
+
+        <h2 id="streit">EU-Streitschlichtung</h2>
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a>.<br>Unsere E-Mail-Adresse finden Sie oben im Impressum.</p>
+
+        <h2 id="verbraucher">Verbraucher­streit­beilegung / Universal­schlichtungs­stelle</h2>
+        <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+        <p class="note">Quelle: e-recht24.de</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <img src="img/logo.png" alt="eleven 11:11 eleven">
+        <p>Coffee & Eatery in Hamburg. All-Day Breakfast mit Asian-Fusion-Twist, Specialty Coffee und ein Raum zum Runterkommen.</p>
+      </div>
+      <div>
+        <h4>Komponistenviertel</h4>
+        <ul>
+          <li>Beethovenstr. 13, 22083 HH</li>
+          <li><a href="tel:+494086628315">040 866 283 15</a></li>
+          <li><a href="mailto:hi@eleven11-11eleven.de">hi@eleven11-11eleven.de</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Eppendorf</h4>
+        <ul>
+          <li>Tarpenbekstr. 51, 20251 HH</li>
+          <li><a href="tel:+494023868633">040 238 686 33</a></li>
+          <li><a href="mailto:eppendorf@eleven11-11eleven.de">eppendorf@eleven11-11eleven.de</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Eleven Eleven HQ GmbH</span>
+      <nav>
+        <a href="https://www.instagram.com/1111.hamburg" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/eleveneleven.hamburg" target="_blank" rel="noopener">Facebook</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  function toggleMenu(){
+    const m = document.getElementById('mobileMenu');
+    const b = document.querySelector('.burger');
+    const open = m.classList.toggle('open');
+    b.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+</script>
+</body>
+</html>

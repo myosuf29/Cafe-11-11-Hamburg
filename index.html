@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>eleven 11:11 eleven – Coffee & Eatery Hamburg</title>
+<meta name="description" content="All-Day Breakfast mit Asian-Fusion-Twist in Hamburg. Zwei Cafés im Komponistenviertel und in Eppendorf – Brunch, Superfood Bowls, Specialty Coffee. Jetzt Tisch reservieren.">
+<meta property="og:title" content="eleven 11:11 eleven – Coffee & Eatery Hamburg">
+<meta property="og:description" content="All-Day Breakfast mit Asian-Fusion-Twist. Zwei Cafés in Hamburg.">
+<meta property="og:image" content="img/interior.jpg">
+<link rel="icon" href="img/logo-04.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="no-js">
+<script>document.body.classList.remove('no-js')</script>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <div class="container nav">
+    <a href="#top" class="logo" aria-label="eleven 11:11 eleven – Startseite"><img src="img/logo.png" alt="eleven 11:11 eleven"></a>
+    <ul>
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#menu">Speisekarte</a></li>
+      <li><a href="#locations">Standorte</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    <a href="#locations" class="btn btn-primary btn-desktop">Tisch reservieren</a>
+    <button class="burger" aria-label="Menü öffnen" aria-expanded="false" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="toggleMenu()">Über uns</a>
+    <a href="#menu" onclick="toggleMenu()">Speisekarte</a>
+    <a href="#locations" onclick="toggleMenu()">Standorte</a>
+    <a href="#contact" onclick="toggleMenu()">Kontakt</a>
+    <a href="#locations" class="btn btn-primary" onclick="toggleMenu()">Tisch reservieren</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">Coffee & Eatery · Hamburg</span>
+      <h1>All-Day Breakfast mit <em>Asian-Fusion</em> Twist.</h1>
+      <p class="lead">Brekki Bao, Golden Shakshuka, Matcha Latte und handgefilterter Kaffee – in einem Raum, der nach Wabi-Sabi gestaltet ist: einfach, ehrlich, entspannt. Zweimal in Hamburg.</p>
+      <div class="hero-actions">
+        <a href="#locations" class="btn btn-primary">Tisch reservieren
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#menu" class="btn btn-ghost">Speisekarte ansehen</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>9:00 – 15:00</strong>Brunch, jeden Tag</div>
+        <div><strong>Mo – Fr</strong>Wöchentlich wechselnder Lunch</div>
+        <div><strong>2 Standorte</strong>Komponistenviertel & Eppendorf</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img class="main" src="img/interior.jpg" alt="Innenraum des Cafés mit Holztischen, Rattanstühlen und Wandnischen" fetchpriority="high">
+      <div class="stamp">all-day<br>breakfast<br>· HH ·</div>
+      <div class="badge">
+        <div class="t">11:11</div>
+        <div class="s">Mehr als eine Uhrzeit. Ein Moment zum Innehalten.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Work hard. Breakfast harder.</span><span>✦</span><span>Specialty Coffee</span><span>✦</span><span>Superfood Bowls</span><span>✦</span><span>Wabi-Sabi</span><span>✦</span><span>Hausgemachte Limonade</span><span>✦</span><span>Vegan Options</span><span>✦</span>
+    <span>Work hard. Breakfast harder.</span><span>✦</span><span>Specialty Coffee</span><span>✦</span><span>Superfood Bowls</span><span>✦</span><span>Wabi-Sabi</span><span>✦</span><span>Hausgemachte Limonade</span><span>✦</span><span>Vegan Options</span><span>✦</span>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="reveal">
+      <span class="eyebrow">Über uns</span>
+      <h2>Gutes Essen, guter Kaffee, gute Momente.</h2>
+      <p style="margin-top:1.2rem">Bei uns gibt es den ganzen Tag Frühstück – mit einem Asian-Fusion-Twist. Kimchi trifft Brioche, Miso trifft Kürbis, Ube trifft Waffel.</p>
+      <p>Unser Raum ist inspiriert von der japanischen Philosophie des <strong>Wabi-Sabi</strong>: Schönheit in der Einfachheit, im Unperfekten und in den kleinen Momenten dazwischen.</p>
+      <blockquote class="quote">„Wabi-Sabi-Ästhetik trifft farbenfrohes, asiatisch inspiriertes Frühstück. Zeit, an Bord zu kommen.“</blockquote>
+      <p>Wir haben einen Ort geschaffen, um runterzukommen, gut zu essen und einfach da zu sein. Ob Zeit für dich, Zeit mit Freund:innen oder nur eine kleine Pause vom Tag.</p>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg></div>
+          <h3>Specialty Coffee</h3><p>V60 Handfilter, Flat White, vietnamesischer Cà Phê Phin.</p>
+        </div>
+        <div class="pillar">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+          <h3>Viel Veganes</h3><p>Bowls, Shakshuka, Ube Waffle – vieles ganz ohne Tier.</p>
+        </div>
+        <div class="pillar">
+          <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>All-Day Breakfast</h3><p>Frühstück ist keine Uhrzeit. Bei uns bis 15 Uhr.</p>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual reveal">
+      <span class="kanji" aria-hidden="true">侘寂</span>
+      <img src="img/photo3.jpg" alt="Handgefilterter Kaffee wird in eine Keramiktasse gegossen" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ================= MOMENT ================= -->
+<section class="moment">
+  <div class="container reveal">
+    <div class="time">11:11</div>
+    <p class="lines">Es ist mehr als eine Uhrzeit. Es ist ein Moment.<br>Ein Moment für dich. Ein Moment mit Freunden.<br>Ein Moment, um langsamer zu werden und zu genießen.</p>
+    <p class="sub">A day well spent is a day having breakfast at 11:11</p>
+  </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section id="menu">
+  <div class="container">
+    <div class="menu-head reveal">
+      <div>
+        <span class="eyebrow">Speisekarte</span>
+        <h2>Work hard.<br>Breakfast harder.</h2>
+      </div>
+      <p>Brunch täglich von 9 bis 15 Uhr, Bowls und Sweets den ganzen Tag. Montags bis freitags gibt es außerdem einen wöchentlich wechselnden Lunch (11:30 – 15:00).</p>
+    </div>
+
+    <div class="tabs reveal" role="tablist">
+      <button class="tab active" role="tab" data-panel="brunch">Brunch <span class="h">9–15 Uhr</span></button>
+      <button class="tab" role="tab" data-panel="bowls">Superfood Bowls <span class="h">All Day</span></button>
+      <button class="tab" role="tab" data-panel="sweets">Sweets <span class="h">All Day</span></button>
+      <button class="tab" role="tab" data-panel="drinks">Kaffee & Drinks</button>
+      <button class="tab" role="tab" data-panel="extras">Extras & Stulle</button>
+    </div>
+
+    <!-- Brunch -->
+    <div class="panel active" id="brunch" role="tabpanel">
+      <div class="dishes">
+        <article class="dish"><div class="dish-top"><h3>Märchenwald <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">14,9</span></div><p>Miso-Kürbis-Hummus · Trüffelöl · karamellisierte Edelpilze · Sprossen · Sauerteigbrot · Kerne-Mix</p></article>
+        <article class="dish"><div class="dish-top"><h3>Salmon Deluxe</h3><span class="price">15,9</span></div><p>Norw. Räucherlachs · Smashed Avocado · mariniertes Bio-Ei · Parmesan · Ponzu-Mayo · Sprossen · Sauerteigbrot</p></article>
+        <article class="dish"><div class="dish-top"><h3>Brekki Bao</h3><span class="price">13,9</span></div><p>Bao-Brötchen · Pastrami · Spiegelei · Spinat · Rettich · Wildsalat · Teriyaki · Mango-Chili-Mayo</p></article>
+        <article class="dish"><div class="dish-top"><h3>Golden Shakshuka <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Kurkuma-Tomaten-Sauce · Paprika · Vegan Greek White · Mais · Mangocrème · Koriander · Lauch · Sauerteigbrot</p><div class="add">optional: +2 Bio-Eier 3,5</div></article>
+        <article class="dish"><div class="dish-top"><h3>Double Kimchi Cheese</h3><span class="price">15,9</span></div><p>Bio-Rühreier · Parmesan · Cheddar · Kimchi · Brioche-Croissant · Schnittlauch · Mango-Chili-Mayo</p></article>
+        <article class="dish"><div class="dish-top"><h3>Tropical Salad <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Mangostreifen · Passionsfrucht · Wildkräuter · Vegan Greek White · Kernenmix · Maracuja-Ponzu-Dressing</p><div class="add">+ Burrata 4,5</div></article>
+      </div>
+    </div>
+
+    <!-- Bowls -->
+    <div class="panel" id="bowls" role="tabpanel">
+      <div class="dishes">
+        <article class="dish"><div class="dish-top"><h3>Sunny Bowl <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Mango · Kurkuma · Bananen · Kokosmilch · Passionsfrucht · Gojibeeren · Kokoschips · Granola</p></article>
+        <article class="dish"><div class="dish-top"><h3>Popeye Bowl <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Spinat · Avocado · Bananen · Bio-Spirulina · Kiwi · Kakaonibs · Erdnussmus · Waldbeeren · Granola</p></article>
+        <article class="dish"><div class="dish-top"><h3>Rosengarten Bowl <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Waldbeeren · Bio-Açaí · Granatapfel · Bananen · Granola · Chiasamen · Bio-Rosenblätter</p></article>
+      </div>
+    </div>
+
+    <!-- Sweets -->
+    <div class="panel" id="sweets" role="tabpanel">
+      <div class="dishes">
+        <article class="dish"><div class="dish-top"><h3>Ube Waffle <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Lila-Yamswurzel-Waffeln · Mangosorbet · Ube Sauce · Kokosflocken · Waldbeeren</p></article>
+        <article class="dish"><div class="dish-top"><h3>Passion French Toast</h3><span class="price">12,9</span></div><p>Arme Ritter aus Brioche-Croissant · Mascarpone · Ahornsirup · Kokoschips · Passionsfrucht · Waldbeeren</p></article>
+        <article class="dish"><div class="dish-top"><h3>Chai Porridge <span class="vegan" title="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span></h3><span class="price">12,9</span></div><p>Overnight Oats · Chai-Gewürze · Granola · Waldbeeren · Chiasamen · Banane · Kakaonibs</p></article>
+        <article class="dish"><div class="dish-top"><h3>Pastry</h3><span class="price">ab 2,0</span></div><p>Butter Croissant 2,2 · Pain au chocolat 2,5 · Franzbrötchen 2,5 · Cookies 2,0 – weitere hausgemachte Kuchen an der Theke.</p></article>
+      </div>
+    </div>
+
+    <!-- Drinks -->
+    <div class="panel" id="drinks" role="tabpanel">
+      <div class="drinks">
+        <div>
+          <h3>Specialty Coffee</h3>
+          <ul>
+            <li><span>Espresso | Doppio</span><span>2,8 | 3,5</span></li>
+            <li><span>Caffè Crema</span><span>3,6</span></li>
+            <li><span>Americano</span><span>3,6</span></li>
+            <li><span>Cappuccino | Doppio</span><span>4,0 | 4,8</span></li>
+            <li><span>Flat White</span><span>4,6</span></li>
+            <li><span>Caffè Latte</span><span>4,8</span></li>
+            <li><span>Latte Macchiato</span><span>4,8</span></li>
+            <li><span>Caffè Mocha</span><span>4,6</span></li>
+            <li><span>Viet. Cà Phê Phin | Iced</span><span>4,5 | 5,2</span></li>
+            <li><span>V60 Handfilter Coffee</span><span>5,5</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Non Coffee & Tea</h3>
+          <ul>
+            <li><span>Matcha Latte (Ceremonial Grade)</span><span>6,2</span></li>
+            <li><span>Strawberry Matcha Latte (Iced)</span><span>6,9</span></li>
+            <li><span>Mango Matcha Latte (Iced)</span><span>6,9</span></li>
+            <li><span>Blue Latte (Spirulina)</span><span>6,2</span></li>
+            <li><span>Chai Latte</span><span>5,5</span></li>
+            <li><span>Heiße Schokolade</span><span>4,9</span></li>
+            <li><span>Grüntee-Jasminblüten-Gojibeere</span><span>3,9 | 5,9</span></li>
+            <li><span>Earl Grey-Sojamilch-Lavender</span><span>3,9 | 5,9</span></li>
+            <li><span>Hibiskus-Rosenblüten-Gojibeere</span><span>4,2 | 6,5</span></li>
+            <li><span>Frische Ingwer-Orange-Minze</span><span>4,2 | 6,5</span></li>
+            <li><span>Zitronengras-Limette-Minze</span><span>4,2 | 6,5</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Homemade Limonade & Softdrinks</h3>
+          <ul>
+            <li><span>Maracuja-Wildbeere-Limo</span><span>5,5</span></li>
+            <li><span>Limette-Jasmintee-Limo</span><span>5,5</span></li>
+            <li><span>Mango-Litschi-Kokosmilch</span><span>5,5</span></li>
+            <li><span>Frisch gepresster O-Saft</span><span>5,9</span></li>
+            <li><span>Viva con Agua leise | laut 0,33 l</span><span>3,0</span></li>
+            <li><span>Viva con Agua leise | laut 0,75 l</span><span>6,5</span></li>
+            <li><span>Coca-Cola · Zero · Fanta · Sprite · Mezzo Mix</span><span>3,5</span></li>
+            <li><span>Säfte | Saftschorlen 0,3 l</span><span>4,0 | 3,6</span></li>
+            <li><span>Apfel · Rhabarber · Maracuja · Mango · Litschi</span><span></span></li>
+          </ul>
+          <p style="font-size:.82rem;color:var(--muted);margin-top:1rem;font-style:italic">Hafer-, Soja-, Kokosmilch, laktosefrei, entkoffeiniert oder Sirup +0,3 · Extra Espresso Shot +0,8</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extras -->
+    <div class="panel" id="extras" role="tabpanel">
+      <div class="dishes">
+        <article class="dish" style="grid-column:1/-1"><div class="dish-top"><h3>Eigene Stulle zusammenstellen</h3><span class="price">4,9</span></div><p>Basis: Sauerteigbrot, Brioche-Croissant oder Bao – und dann nach Lust und Laune belegen.</p></article>
+        <article class="dish"><div class="dish-top"><h3>Eier & Käse</h3></div><p>Bio-Spiegelei +2 · 3 Bio-Rühreier +5 · mariniertes Soja-Ei +3 · veganer Feta +2 · Parmesan +2 · Cheddar +2 · Burrata +4,5</p></article>
+        <article class="dish"><div class="dish-top"><h3>Toppings</h3></div><p>Smashed Avocado +5 · Rinderschinken +5 · Kimchi +2 · Räucherlachs +5 · Miso-Kürbis-Hummus +4 · gebr. Edelpilze +6</p></article>
+      </div>
+    </div>
+
+    <div class="menu-note reveal">
+      <p><span class="legend"><span class="vegan"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C7 8 17 8 17 8z"/></svg></span> vegan · Alle Preise in € inkl. MwSt. · Allergeninformationen erhaltet ihr beim Personal.</span></p>
+      <a class="btn btn-ghost" href="https://www.eleven11-11eleven.de/s/Menu-11-11-052026.pdf" target="_blank" rel="noopener">Komplette Karte als PDF
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery">
+  <div class="container gallery-grid reveal">
+    <img class="tall" src="img/interior.jpg" alt="Café-Innenraum mit Holzbalken und Rattanleuchten" loading="lazy">
+    <img src="img/photo2.jpg" alt="Siebträgermaschine mit Keramiktassen und Feigenbaum" loading="lazy">
+    <div class="card">
+      <div class="big">Folge uns für Daily Specials, neue Drinks & Lunch der Woche.</div>
+      <a href="https://www.instagram.com/1111.hamburg" target="_blank" rel="noopener">@1111.hamburg auf Instagram →</a>
+    </div>
+    <img src="img/photo3.jpg" alt="Kaffee wird eingeschenkt" loading="lazy" style="grid-column:span 2">
+  </div>
+</section>
+
+<!-- ================= LOCATIONS ================= -->
+<section class="locations" id="locations">
+  <div class="container">
+    <div class="reveal" style="text-align:center;max-width:40rem;margin-inline:auto">
+      <span class="eyebrow">Standorte</span>
+      <h2>Zweimal in Hamburg.</h2>
+      <p style="color:var(--muted);margin-top:1rem">Reserviert direkt online – oder kommt einfach spontan vorbei.</p>
+    </div>
+    <div class="loc-grid">
+      <article class="loc reveal">
+        <span class="tag">Barmbek-Süd</span>
+        <h3>Komponistenviertel</h3>
+        <address>
+          <a href="https://maps.google.com/?q=Beethovenstr.+13,+22083+Hamburg" target="_blank" rel="noopener">Beethovenstr. 13<br>22083 Hamburg</a><br>
+          <a href="tel:+494086628315">040 866 283 15</a><br>
+          <a href="mailto:hi@eleven11-11eleven.de">hi@eleven11-11eleven.de</a>
+        </address>
+        <div class="hours">
+          <b>Brunch</b><span>täglich 9:00 – 15:00</span>
+          <b>Lunch</b><span>Mo – Fr 11:30 – 15:00</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://reservation.dish.co/widget/hydra-3991980c-7f71-43ee-9e00-dc39c7a9092d" target="_blank" rel="noopener">Tisch reservieren</a>
+          <a class="btn btn-ghost" href="https://maps.google.com/?q=Beethovenstr.+13,+22083+Hamburg" target="_blank" rel="noopener">Route</a>
+        </div>
+      </article>
+      <article class="loc reveal">
+        <span class="tag">Eppendorf</span>
+        <h3>Eppendorf</h3>
+        <address>
+          <a href="https://maps.google.com/?q=Tarpenbekstr.+51,+20251+Hamburg" target="_blank" rel="noopener">Tarpenbekstr. 51<br>20251 Hamburg</a><br>
+          <a href="tel:+494023868633">040 238 686 33</a><br>
+          <a href="mailto:eppendorf@eleven11-11eleven.de">eppendorf@eleven11-11eleven.de</a>
+        </address>
+        <div class="hours">
+          <b>Brunch</b><span>täglich 9:00 – 15:00</span>
+          <b>Lunch</b><span>Mo – Fr 11:30 – 15:00</span>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://reservation.dish.co/widget/hydra-07f100fa-ccfd-428a-8ddc-22a083cfb6f5" target="_blank" rel="noopener">Tisch reservieren</a>
+          <a class="btn btn-ghost" href="https://maps.google.com/?q=Tarpenbekstr.+51,+20251+Hamburg" target="_blank" rel="noopener">Route</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Kontakt</span>
+      <h2>Schreib uns.</h2>
+      <p style="margin-top:1rem">Wir freuen uns auf Liebesbriefe – und natürlich auch auf Fragen zu Gruppen, Events, Catering oder Jobs.</p>
+      <p>Für Reservierungen nutzt bitte die Buttons bei den <a href="#locations" style="color:var(--brown)">Standorten</a>, das geht am schnellsten.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/1111.hamburg" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="https://www.facebook.com/eleveneleven.hamburg" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="mailto:hi@eleven11-11eleven.de" aria-label="E-Mail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg></a>
+      </div>
+    </div>
+    <form class="reveal" id="contactForm" onsubmit="return sendMail(event)">
+      <div class="row">
+        <div><label for="name">Name</label><input id="name" name="name" type="text" required autocomplete="name"></div>
+        <div><label for="email">E-Mail</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+      </div>
+      <div><label for="subject">Betreff</label><input id="subject" name="subject" type="text" placeholder="z. B. Gruppenreservierung, Catering, Feedback"></div>
+      <div><label for="message">Nachricht</label><textarea id="message" name="message" required></textarea></div>
+      <button type="submit" class="btn btn-primary" style="justify-self:start">Nachricht senden</button>
+      <p class="form-note">Beim Absenden öffnet sich dein E-Mail-Programm mit der vorausgefüllten Nachricht an hi@eleven11-11eleven.de.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <img src="img/logo.png" alt="eleven 11:11 eleven">
+        <p>Coffee & Eatery in Hamburg. All-Day Breakfast mit Asian-Fusion-Twist, Specialty Coffee und ein Raum zum Runterkommen.</p>
+      </div>
+      <div>
+        <h4>Komponistenviertel</h4>
+        <ul>
+          <li>Beethovenstr. 13, 22083 HH</li>
+          <li><a href="tel:+494086628315">040 866 283 15</a></li>
+          <li><a href="mailto:hi@eleven11-11eleven.de">hi@eleven11-11eleven.de</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Eppendorf</h4>
+        <ul>
+          <li>Tarpenbekstr. 51, 20251 HH</li>
+          <li><a href="tel:+494023868633">040 238 686 33</a></li>
+          <li><a href="mailto:eppendorf@eleven11-11eleven.de">eppendorf@eleven11-11eleven.de</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Eleven Eleven HQ GmbH</span>
+      <nav>
+        <a href="https://www.instagram.com/1111.hamburg" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/eleveneleven.hamburg" target="_blank" rel="noopener">Facebook</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  function toggleMenu(){
+    const m = document.getElementById('mobileMenu');
+    const b = document.querySelector('.burger');
+    const open = m.classList.toggle('open');
+    b.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  }
+
+  // Menü-Tabs
+  document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+      document.querySelectorAll('.panel').forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      document.getElementById(t.dataset.panel).classList.add('active');
+    });
+  });
+
+  // Scroll-Reveal – Inhalte sind auch ohne JS sichtbar, die Animation ist nur Bonus.
+  // Bewusst kein IntersectionObserver: bei schnellem Scrollen/Sprüngen kann der Elemente
+  // überspringen und sie bleiben unsichtbar (das war der Bug der alten Seite).
+  const revealEls = [...document.querySelectorAll('.reveal')];
+  let ticking = false;
+  function revealCheck(){
+    ticking = false;
+    const limit = window.innerHeight - 40;
+    for (const el of revealEls) {
+      if (!el.classList.contains('in') && el.getBoundingClientRect().top < limit) el.classList.add('in');
+    }
+  }
+  function onScroll(){ if (!ticking) { ticking = true; requestAnimationFrame(revealCheck); } }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  window.addEventListener('load', revealCheck);
+  window.addEventListener('hashchange', () => setTimeout(revealCheck, 50));
+  revealCheck();
+  // Sicherheitsnetz: nach 4 s ist garantiert alles sichtbar
+  setTimeout(() => revealEls.forEach(el => el.classList.add('in')), 4000);
+
+  // Kontaktformular → mailto (kein Backend nötig)
+  function sendMail(e){
+    e.preventDefault();
+    const f = e.target;
+    const subject = encodeURIComponent(f.subject.value || 'Nachricht über die Website');
+    const body = encodeURIComponent(`Name: ${f.name.value}\nE-Mail: ${f.email.value}\n\n${f.message.value}`);
+    window.location.href = `mailto:hi@eleven11-11eleven.de?subject=${subject}&body=${body}`;
+    return false;
+  }
+</script>
+</body>
+</html>
